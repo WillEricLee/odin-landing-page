@@ -21,6 +21,8 @@ a {
     color:#E5E7EB;
 }
 
+/*--------------------------------- HERO --------------------------------------*/
+
 .hero-section {
     background-color: #1F2937;
     padding:100px;
@@ -68,8 +70,8 @@ a {
     display:flex;
     flex-direction: column;
     padding:50px;
-    padding-left:15%;
-    padding-right:15%;
+    margin-left:15%;
+    margin-right:15%;
 
     justify-content: center;
     align-items: center;
@@ -95,3 +97,63 @@ a {
     border: 5px solid #3882F6;
 }
 
+/*-------------------------------- QUOTE ---------------------------------------*/
+
+.quote-box {
+    display:flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #E5E7EB;
+    flex-grow:1;
+}
+.quote {
+    font-size: 36px;
+    font-style:italic;
+}
+.attribution {
+    display:flex;
+    justify-content: right;
+}
+
+/*-------------------------------- CALL TO ACTION ---------------------------------------*/
+
+.call-to-action-box {
+    background-color:#3882F6;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    padding:30px;
+    padding-left:5%;
+    padding-right:5%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color:white;
+}
+.call-to-action button {
+    width:100px;
+    height:25px;
+
+    border-color: white;
+    background-color: #3882F6;
+    color:white;
+}
+
+/*-------------------------------- FOOTER ---------------------------------------*/
+
+.footer {
+    color:white;
+    background-color: #1F2937;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
