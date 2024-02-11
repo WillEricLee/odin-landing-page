@@ -20,3 +20,78 @@ a {
     text-decoration: none;
     color:#E5E7EB;
 }
+
+.hero-section {
+    background-color: #1F2937;
+    padding:100px;
+    padding-left:15%;
+    padding-right:15%;
+    height:300px;
+
+    display:flex;
+    align-items: center;
+}
+
+.left-hero,
+.hero-placeholder {
+    flex:1;
+}
+
+.left-hero {
+    display:flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+#hero {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.left-hero button {
+    width:100px;
+    background-color: #3882F6;
+    color:white;
+    border-color: #3882F6;
+}
+
+.hero-placeholder {
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.random-information {
+    display:flex;
+    flex-direction: column;
+    padding:50px;
+    padding-left:15%;
+    padding-right:15%;
+
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    margin-bottom: 30px;
+}
+.dual-group {
+    display:flex;
+    align-items: center;
+    text-align: center;
+
+    margin:10px;
+}
+.dual {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    height:150px;
+    width:150px;
+    border: 5px solid #3882F6;
+}
+
