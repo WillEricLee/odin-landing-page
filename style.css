@@ -1,13 +1,20 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
 .header {
     display:flex;
     background-color: #1F2937;
     justify-content: space-between;
+    padding:20px;
     padding-left:15%;
     padding-right:15%;
 }
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color:#F9FAF8;
 }
 
@@ -45,9 +52,14 @@ a {
     flex-direction: column;
 }
 #hero {
-    font-weight: extra-bold;
+    font-weight: bold;
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0px;
+}
+#subtext {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 .left-hero button {
     width:100px;
@@ -55,29 +67,43 @@ a {
     color:white;
     border-color: #3882F6;
 }
-
 .hero-placeholder {
     display:flex;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     font-size: 18px;
     color:#E5E7EB;
+    background-color: gray;
 }
+
+/*-------------------------------- RANDOM INFORMATION ---------------------------------------*/
+
 
 .random-information {
     display:flex;
     flex-direction: column;
     padding:50px;
-    margin-left:15%;
-    margin-right:15%;
+    padding-left:15%;
+    padding-right:15%;
+
+    border-radius: 0px;
+    margin: 0px;
 
     justify-content: center;
     align-items: center;
+    align-self: stretch;
+    background-color: white;
 }
 .title {
     margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
 }
 .dual-group {
     display:flex;
@@ -95,6 +121,7 @@ a {
     height:150px;
     width:150px;
     border: 5px solid #3882F6;
+    border-radius: 15px;
 }
 
 /*-------------------------------- QUOTE ---------------------------------------*/
@@ -116,6 +143,7 @@ a {
 .attribution {
     display:flex;
     justify-content: right;
+    font-weight: bold;
 }
 
 /*-------------------------------- CALL TO ACTION ---------------------------------------*/
@@ -137,6 +165,7 @@ a {
     align-items: center;
 
     color:white;
+    border-radius: 15px;
 }
 .call-to-action button {
     width:100px;
@@ -156,4 +185,6 @@ a {
     display:flex;
     justify-content: center;
     align-items: center;
+
+    padding:15px;
 }
